@@ -34,7 +34,7 @@
         android:id="@+id/create_des"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Ddescription"
+        android:hint="Enter description"
         android:padding="15dp"
         android:layout_marginTop="30dp"
         android:textColor="@color/white"
