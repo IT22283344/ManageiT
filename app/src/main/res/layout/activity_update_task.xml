@@ -7,13 +7,13 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="20dp"
-    android:background="@color/black"
+    android:background="@color/midnight"
     tools:context=".UpdateTask">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter Details"
+        android:text="Update Details"
         android:textSize="36sp"
         android:gravity="center"
         android:fontFamily="sans-serif"

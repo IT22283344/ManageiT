@@ -10,9 +10,6 @@ import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 
 
-//entity - table
-//dao - queries
-
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

@@ -9,24 +9,35 @@
     android:background="@color/black"
     tools:context=".SplashScreen">
 
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo" />
+
     <TextView
+        android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TO DO"
         android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/bai_jamjuree_medium"
+        android:text="Manage-iT"
+        android:paddingTop="50dp"
         android:textColor="@color/white"
-        android:textSize="40sp"
-        android:fontFamily="sans-serif"/>
+        android:textSize="40sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Manage Your Tasks"
         android:layout_gravity="center_horizontal"
-        android:textColor="#8A8686"
-        android:textSize="16sp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/bai_jamjuree_medium"
         android:letterSpacing="0.3"
-        android:fontFamily="sans-serif"/>
+        android:text="Manage Your Tasks"
+        android:textColor="#8A8686"
+        android:textSize="20sp" />
 
 </LinearLayout>

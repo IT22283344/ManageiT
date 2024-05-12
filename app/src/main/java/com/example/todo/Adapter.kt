@@ -35,7 +35,7 @@ class Adapter(private val data: List<CardInfo>) : RecyclerView.Adapter<Adapter.V
         // Set background color based on priority
         when (currentItem.priority.toLowerCase()) {
             "high" -> holder.layout.setBackgroundColor(Color.parseColor("#F05454"))
-            "medium" -> holder.layout.setBackgroundColor(Color.parseColor("#EDC988"))
+            "medium" -> holder.layout.setBackgroundColor(Color.parseColor("#FFA500"))
             else -> holder.layout.setBackgroundColor(Color.parseColor("#EDC988"))
         }
 
